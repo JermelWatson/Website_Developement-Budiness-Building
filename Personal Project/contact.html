@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!--
+
+    Author: Jermel Watson
+    Date: November 22, 2020
+     -->
+    <link href="pic1.jpg" type="image/jpg" rel="icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="business.css" rel="stylesheet" />
+
+    <title>Business Building</title>
+    <style>
+        .form {
+            margin-left: 3em;
+            width: 85%;
+            border: 2px solid black;
+        }
+
+        form {
+            padding: 1em;
+        }
+
+        h1 {
+            margin-left: 25px;
+            padding: 1em;
+        }
+
+        header {
+            background-image: url(pic1.jpg);
+            background-size: contain;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="topnav">
+        <nav>
+            <ul class="horizontal">
+                <li class="mainNav" style="float:left"> <a href="business.html"> Home </a></li>
+                <li class="mainNav"><a href="contact.html">Contact Us</a></li>
+                <li class="mainNav" style="float:left">
+                    <a href="#" class="submenuTitle">More</a>
+                    <ul class="submenu">
+                        <li><a href="about.html"> About Us </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header">
+        <header>
+            <img src="profile2.jpg" alt="profile pic" id="profile" />
+        </header>
+    </div>
+    <h1>Contact Us</h1>
+    <div class="form">
+        <form action="/C:\Users\User\Desktop\HTML\fORM DATA.txt" method="post">
+            <div>
+                <label for="firstname">First Name  </label><input style="font-family:'Times New Roman'" type="text" name="firstname" id="firstname" placeholder="firstname" />     <label for=" midddlename">Middle Name  </label><input type="text" name="middlename" id="middlename" placeholder="middlename" />
+            </div>
+            <div>
+                <br />
+                <label for="lastname">Last Name  </label>
+                <input type="text" name="lastname" id="lastname" placeholder="lastname" />
+            </div>
+            <div>
+                <br />
+                <label for="gender">Gender </label>
+                <select name="gender" style="">
+                    <option value="male" id="male">Male</option>
+                    <option value="female" id="female">Female</option>
+                </select>
+            </div>
+
+            <br />
+            <fieldset>
+                <legend style="font-family:'Times New Roman'">Complete Address</legend>
+                <div>
+                    <br />
+                    <label for="address">Address1 </label>
+                    <input type="text" name="adress" id="address" />
+                </div>
+                <div>
+                    <br />
+                    <label for="address2">Address2 </label>
+                    <input type="text" name="adress2" id="address2" />
+                </div>
+            </fieldset>
+            <div>
+                <br />
+                <label for="age">Age </label>
+                <input type="number" name="age" id="age" max="200" min="5" />
+            </div>
+            <div>
+                <br />
+                <label for="telephone">Telephone Number </label>
+                <input type="tel" name="telephone" id="telephone" />
+            </div>
+            <div>
+                <br />
+                <label for="comment">Comment </label>
+                <textarea id="comment" name="comment" rows="6" cols="80"></textarea>
+            </div>
+            <br />
+            <input type="Submit" value="Submit" />
+        </form>
+    </div>
+    <div class="contacts">
+        <footer class="contacts" style="text-align:center">
+            <h5>Good Luck and Keep Pushing !!!!!</h5>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><div style="margin-left: 0px; padding-right: 100px"><a title="Author" href="Resume.html" alt="resume" id="author" class="social" target="blank">&copy; Jermel Watson 2020</a></div></li>
+                        <li><div style="margin-left: 0px; padding-right: 100px"><a title="Whats App Conatct" href="tel:+ +2028765968"><img src="whatsApp.jpg" class="social" alt="whats app" rel="icon" /></a></div></li>
+                        <li><div style="margin-left: 0px; padding-right: 100px"><a title="Linked in page" href="https://www.linkedin.com/feed/" target="_blank"><img src="linkedIn.jpg" class="social" alt="Linked In" rel=" icon" /></a></div></li>
+                        <li><div style="margin-left: 0px; padding-right: 100px"><a title="Email" href="mailto: renoldowatson@gmail.com" target="_blank">Email</a></div></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

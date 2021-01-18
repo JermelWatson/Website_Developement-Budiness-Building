@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.row1_col1 {
+    clear: both;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+    padding: 1em;
+    overflow: hidden;
+}
+.row1_col2 {
+    display: block;
+    margin-left: 300px;
+    padding: 1em;
+    overflow: hidden;
+}
+.row2_col1 {
+    clear: both;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+    width: 50%;
+}
+.row2_col2 {
+    display: block;
+    margin-left: 300px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.row3_col1 {
+    clear: both;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+    width: 50%;
+}
+.row3_col2 {
+    clear: right;
+    display: block;
+    margin-left: 300px;
+    padding: 1em;
+    overflow: hidden;
+}
+hr {
+    width: 100%;
+    clear: both;
+    display: block;
+    float: left;
+    margin-top:0;
+}
+p{
+    display:block;
+    padding: 1em;
+    max-width: 500px;
+    line-height: 2em;
+    font-size: 16px;
+    font-family: 'Century Gothic';
+}
+ul {
+    padding-left: 1em;
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+    ul li {
+        list-style: circle;
+    }
+
+.header {
+    font-family: 'Bookman Old Style';
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h4 {
+    margin-top: 15px;
+}
+.contact {
+    display: inline;
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+h1.head {
+    display: inline;
+    align-content: center;
+    text-align:center;
+    display: block;
+}
+img#main_image{
+    height: 150px;
+    margin-left: 100px;
+    float:left;
+    margin-bottom: 20px;
+
+
+}
+header.title {
+    display: block;
+    clear: both;
+    content:"";
+    padding: 1em;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    font-size: 30px;
+
+}
+.social{
+    height: 50px;
+}
+footer {
+    align-content: center;
+    background-image: url(title_bckgrd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    background-color: gray;
+    align-content: center;
+    float: left;
+    clear: both;
+    content: "";
+    display: table;
+    width: 100%;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display:block;
+    margin-left:38%;
+    margin-right:auto;
+    align-content: end;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+}
+img.social{
+    border-radius:50%;
+}
+/*Home Page Styles*/
+.grid div:nth-child(even){
+    background-color:none;
+}
+.grid div:nth-child(odd) {
+    background-color: none;
+}
+.grid {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    grid-template-areas: 
+    "image1 about"
+    "image2 Interests"
+    "image3 more-info";
+}
+.image1 {
+    grid-area: image1;
+    align-self: center;
+    justify-self: center;
+}
+img.first {
+    display: block;
+    height: 251px;
+    border-radius: 50%;
+    margin-left:150px;
+    margin-right:80px;
+    margin-bottom: 50px;
+}
+.about {
+    display: block;
+    width: 80%;
+    background-color: aquamarine;
+    grid-area: about;
+    justify-self: start;
+}
+.image2 {
+    grid-area: image2;
+    align-self: center;
+    justify-self: center;
+}
+.Interests {
+    display: block;
+    width: 80%;
+    background-color: aquamarine;
+    grid-area: Interests;
+    justify-self: start;
+}
+.image3 {
+    grid-area: image3;
+    align-self: center;
+    justify-self: center;
+}
+.more-info {
+    display:block;
+    width: 80%;
+    background-color: aquamarine;
+    grid-area: more-info;
+    justify-self: start;
+}
+p.special{
+    margin:0;
+    padding:0;
+    font-size: 49px;
+    text-decoration:underline;
+
+}
+p.content {
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+
